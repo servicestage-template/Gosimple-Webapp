@@ -7,7 +7,7 @@ ADD view /home/webapp/sample/view
 
 WORKDIR /home/webapp/sample
 
-RUN chmod +x /home/webapp/sample/main
-CMD ["/home/webapp/sample/main"]
+RUN chmod +x /home/webapp/sample/Gosimple-Webapp
+CMD ["/home/webapp/sample/Gosimple-Webapp"]
 
 EXPOSE 8080
