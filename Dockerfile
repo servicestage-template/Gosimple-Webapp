@@ -1,7 +1,7 @@
 FROM frolvlad/alpine-glibc:latest
 
 RUN mkdir -p /home/webapp/sample
-ADD main /home/webapp/sample/
+ADD Gosimple-Webapp /home/webapp/sample/
 ADD static /home/webapp/sample/static
 ADD view /home/webapp/sample/view
 
