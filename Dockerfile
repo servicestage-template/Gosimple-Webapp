@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-glibc:latest
+FROM golang:1.11
 
 RUN mkdir -p /home/webapp/sample
 ADD Gosimple-Webapp /home/webapp/sample/
